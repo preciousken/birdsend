@@ -25,7 +25,7 @@ app.post("/birdsend", async(req,res)=>{
 
 
   const config = {
-    email:'pkehinde27@gmail.com',
+    email:'<YOUR-EMAIL>',
     grant_type: 'def502005ef5c667817b47c73c6d4bda36edd898bfd8215014b6999bd15647e6cb163028e4968d5f561c10f64d48c4a35ad3bf42cbc753443a0ddc4d817242c35d50da71997181f2ac2f00a33581fed5eea2453025e9e5b57a9f1670afa201f6cd7e42d907a16f4f0ebbcce9ca09b4ba02923262c906507a0d4dfad643603b3496ea91b6af2afdde4dd9051820f7a1720e90fbfd0bc4ad4ae9fb3d2e07f4164cceda3c856f7701fce13feb9ae5d927150051880f57c64e16d5b202d0cab8a9609f6a74fbd2da7d5b155d1148a5a27c0077656727468a0b4e2d5559d3dec6f0fcfb4f298e2575ce8a96913cbe593681ed4791b3548aa459710ec7bbcd185790c1178a704dd0a502824fcaa1122f387f69ef2df075fb5ef49236a9a830435b7b8f8c7b8afda0b1e351c6f5aa232c3f9688ed248a3f12a6a20c16e31eaf0b23ec45c9037583f668749cfcf68ea6065d6eb9f21cc80f47a3a4c1bee99b5031b37be65c763aeed412c1e493fcce261c',
     client_id: `${process.env.BIRDSEND_CLIENT_ID}`,
     client_secret: `${process.env.BIRDSEND_CLIENT_SECRET}`,
