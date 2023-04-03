@@ -69,7 +69,6 @@ app.post("/birdsend", async(req,res)=>{
     .catch(error => {
       res.status(500).json(error);
     });
-  
 })
 
 // 404 age
