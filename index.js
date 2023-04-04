@@ -78,9 +78,10 @@ app.use('*',(req,res)=>{
     })
 })
 
-port = process.env.PORT || 5000
 
+port = process.env.PORT || 5000
 
 app.listen(port,()=>{
     console.log(`App listening on port ${port}`);
 })
+
