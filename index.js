@@ -74,8 +74,6 @@ app.post("/birdsend", async(req,res)=>{
 
 })
 
-
-
 // 404 age
 app.use('*',(req,res)=>{
     res.send({
